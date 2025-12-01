@@ -37,7 +37,7 @@ const jokeData = {
 // --- ENDPOINTY ---
 
 // 1. Punkt końcowy (GET): /jokebook/categories
-// Zwraca listę dostępnych kategorii
+
 app.get("/jokebook/categories", (req, res) => {
   res.json(categories);
 });
